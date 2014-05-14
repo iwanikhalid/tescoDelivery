@@ -1,27 +1,43 @@
-﻿<head>
-
-<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-<link href='http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css' rel='stylesheet' type='text/css'>
-<style>
-body { margin: 15px;   }
-
-textarea { width: 50%; height: 50%; font-size: 36px; font-family: 'Droid Arabic Naskh', serif;  }
-</style>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+	<title>Tesco Delivery Lab</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">	  
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="favicon.ico">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+	<script src="js/fx.js" type="text/javascript"></script>
 </head>
-<html>
+
 <body>
-
-<textarea id="txt">اَلنَّهْرُ طَوِيلَةٌ</textarea>
-<p><button id="remove">Remove Tashkeel</button></p>
-
-<script type="text/javascript">
-$(document ).ready(function() {
-	$("#remove").click(function() {
-		var re = new RegExp("[\u0617-\u061A\u064B-\u0652]","g");
-		$('#txt').val($('#txt').val().replace(re, ""));
-	});
-});
-</script>
-
+<div class="wrap">
+	<div class="clearfix">
+		<h1 class="floatl" id="logo"><a href="#"><span>Tesco Delivery Lab</span></a></h1>
+		<ul id="nav">
+			<li class="active"><a href="index.html"><span>Main Page</span></a></li>
+			<li><a href="the-science-of-delivery.html"><span>The Science of Delivery</span></a></li>
+			<li><a href="more-experiments.html"><span>More Experiments</span></a></li>
+			<li><a href="more-science.html"><span>More Science</span></a></li>
+			<li><a href="http://eshop.tesco.com.my"><span>Shop Now</span></a></li>
+		</ul>
+	</div>
+	<div id="content">
+		<div class="clearfix">
+			<div class="sidebar deliveryman"></div>
+			<div class="main">
+				<div class="videoframe">
+					<iframe width="692" height="454" src="http://www.youtube.com/embed/qmv6y5EUbIE?rel=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="clearfix" id="footer">
+					<div class="floatr"><h2>Share This: </h2><a class="fb" href="#"></a><a class="twitter" href="#"></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 </body>
 </html>

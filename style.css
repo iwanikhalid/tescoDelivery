@@ -1,0 +1,115 @@
+/******** PB & MT DEW *******************************/
+/******** RESETS ************************************/
+body {-webkit-overflow-scrolling: touch;}
+*, html, body, ul, li, h1, h2, h3, h4, h5, h6, form, p { margin: 0; padding: 0; }
+ul, li { list-style: none; }
+img { border: none; }
+
+/******** STRUCTURE & SPECIFICS *****************/
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+html { 
+  background: #1070b0 url(img/bg-.jpg) center top; 
+  background-repeat: repeat;
+  height: auto;
+  width: 100%;
+  background-position: 50% 0;
+  background-size: 100% auto; 
+}
+html.parallax { background-color: #17c1f4; background-image: none; }
+
+body { font-family: 'Montserrat', sans-serif; font-size: 14px; color: #444; text-align: center; }
+	.parallax body { font-size: 13px; }
+	.parallax p { line-height: 1.4em; }
+
+.wrap { position: relative; padding: 0; width: 1111px; margin: 0 auto; text-align: left; }
+#header {  }
+	h1#logo a { display: block; width: 340px; height: 129px; background: url(img/logo.png) no-repeat; }
+	h1#logo span { display: none; }
+	#nav { font-family: 'Open Sans'; width: 771px; float: right; padding: 50px 0 0; }
+	#nav li { width: 13%; float: left; text-align: center; padding: 0 0 20px; margin: 0 22px; }
+	#nav li a  { color: #fff; text-transform: uppercase; font-weight: 500; font-size: 15px; }
+		#nav li:last-child  { width: auto; margin: 0; }
+		#nav li:last-child a { font-size: 1.3em; font-weight: 700; display: block; width: 176px; height: 54px; background: url(img/shopmenu.png) no-repeat; color: #ee3b46; }
+		#nav li:last-child:hover { background: none; }
+		#nav li:first-child { padding: 0 0 10px; }
+	#nav li:first-child a, #nav li:last-child a { line-height: 50px; }
+	#nav a:hover { text-decoration: none; }
+	#nav li:hover , #nav li.active { background: url(img/menuhover.png) no-repeat left bottom; } 
+#content { }
+	.sidebar { float: left; width: 365px;  }
+	.sidebar.deliveryman { height: 668px;  background: url(img/deliveryman.png) no-repeat; }
+	.main { float: right; width: 746px; padding: 20px 0 0; }
+	.videoframe { padding: 20px 0 0 24px; margin: auto; width: 714px; height: 477px; background: url(img/videoframe.png) no-repeat; }
+	.videoInfo { position: relative; border-bottom: 0 none; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46); font-size: 1.3em;  margin: 0 0 71px; padding: 5px; color: #000; background: #f7e373 url(img/bg-no.png) no-repeat left top; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+		.articleInfo { background-image: none; }
+		.videoInfo span  { bottom: -71px; left: 500px; z-index: 1000; background: url(img/hook.png) no-repeat center center; position: absolute; display: block; width: 89px; height: 75px; }
+		.videoInfo h2 { display: inline-block; margin: 0 0 12px; }
+		.articleInfo h2 { display: inline-block; margin: 8px 0 8px 25px; }
+		.videoInfo blockquote , .articles .entry { line-height: 1.4em; padding: 10px 15px 10px 30px; background: #fff; border: 1px solid #eacf45; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;    -moz-box-shadow:    inset 0 0 10px #ccc;  -webkit-box-shadow: inset 0 0 10px #ccc; box-shadow: inset 0 0 10px #ccc; }
+		.articles .entry{ padding: 25px 15px 25px 30px; }
+			.entry p { margin: 0 0 20px;  }
+			.entry h2 { line-height: 1.2em; }
+		.videoInfo .meta { font-size: 0.8em; padding: 0 0 0 30px; }
+		.articles .videoInfo:last-child span { display: none; }
+	.videoSingle  { margin: 0 0 50px; position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+	.videoSingle  iframe, .videoSingle  object, .videoSingle  embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }	
+#footer  { padding: 25px 0 0 25px; }
+	#footer h2 { margin: 0 10px 0 0; display: inline-block; font-weight: normal; font-size: 1.3em; color: #fff; text-transform: uppercase; }
+	#footer .floatr a { vertical-align: middle; margin: 0 5px; display: inline-block;  width: 47px; height: 47px; background: url(img/social.png) no-repeat; }
+	#footer .floatr .twitter { background-position: -47px 0; }
+	/*#footer a.tesco { margin: 20px 0 0; display: block; width: 155px; height: 55px; background: url(img/tesco.png) no-repeat; }*/
+	
+/* style, variant, weight, size, line-height, family */
+
+.footer { margin: 10px 0; color: #fff; font-size: 10px; font-family: Verdana; font-weight: bold; }
+.footer a { color: #fff; }
+
+/******** REPEATS ********************************/
+h1,h2,h3,h4,p,ul,ol,table { margin-bottom: 10px; }
+
+a { color: #0864a3; text-decoration: none; }
+a:hover { color: #158ada; text-decoration: underline; }
+
+.clearfix { display: inline-block; }
+.clearfix:after { display: block; height: 0; clear: both; content: ".";  visibility: hidden; }
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+img.floatl { margin: 0 10px 0 0; }
+img.floatr { margin: 0 0 0 10px; }
+
+.floatl { float: left; }
+.floatr { float: right; }
+.alignr { text-align: right; }
+.alignl { text-align: left; }
+.alignc { text-align: center; }
+.alignj { text-align: justify; color: #999; font-size: 0.9em; }
+.marg { margin: 0 0 10px 0; }
+.reset, p.reset { margin: 0; }
+
+h1,h2,h3,h4,h5,h6 { font-weight: bold; text-rendering: optimizeLegibility; } /* www.aestheticallyloyal.com/public/optimize-legibility/ */ 
+html { -webkit-font-smoothing: antialiased; } /* maxvoltar.com/archive/-webkit-font-smoothing */
+
+h1 { font-size: 2.2em; letter-spacing: -2px; }
+h2 { font-size: 1.5em; letter-spacing: -1px; }
+h3 { font-size: 1.1em; text-transform: uppercase; letter-spacing: -0.5px; }
+h4 { font-size: 0.9em; }
+h5 { font-size: 0.7em; }
+h6 { font-size: 0.5em; }
+h1.page-title { color: #fff; }
+.parallax h3 { margin: 0; }
+
+#backtotop { cursor : pointer; display : none; margin : 0 0 0 1000px; position : fixed; bottom : 10px; font-size : 90%; padding	: 10px; width : 100px; text-align : center; background-color : #000; border-radius : 8px; -webkit-border-radius : 8px; -moz-border-radius : 8px; filter : alpha(opacity=60); -khtml-opacity : 0.6; -moz-opacity : 0.6; opacity	: 0.6; color : #FFF; font-size : 14px; z-index	: 1000; }
+#backtotop:hover { filter : alpha(opacity=90); -khtml-opacity : 0.9; -moz-opacity : 0.9; opacity	: 0.9; }
+
+/* cupid green (inspired by okcupid.com)
+*******************************************************************************/
+p.cupid-green.reset, .articleInfo { margin-bottom: 30px; }
+p.cupid-green { margin: 20px 0; }
+p.cupid-green.reset a { font: bold 1.1em/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
+p.cupid-green a { text-decoration: none; background-color: #7fbf4d; background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f)); background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f); background-image: -moz-linear-gradient(top, #7fbf4d, #63a62f); background-image: -ms-linear-gradient(top, #7fbf4d, #63a62f); background-image: -o-linear-gradient(top, #7fbf4d, #63a62f); background-image: linear-gradient(top, #7fbf4d, #63a62f); border: 1px solid #63a62f; border-bottom: 1px solid #5b992b; border-radius: 5px; -webkit-box-shadow: inset 0 1px 0 0 #96ca6d; box-shadow: inset 0 1px 0 0 #96ca6d; color: #fff; font: bold 0.6em/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; padding: 7px 10px 8px 10px;  text-align: center; text-shadow: 0 -1px 0 #4c9021; }
+p.cupid-green a:hover { background-color: #76b347; background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e)); background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e); background-image: -moz-linear-gradient(top, #76b347, #5e9e2e); background-image: -ms-linear-gradient(top, #76b347, #5e9e2e); background-image: -o-linear-gradient(top, #76b347, #5e9e2e); background-image: linear-gradient(top, #76b347, #5e9e2e); -webkit-box-shadow: inset 0 1px 0 0 #8dbf67; box-shadow: inset 0 1px 0 0 #8dbf67; cursor: pointer; }
+p.cupid-green a:active { border: 1px solid #5b992b; border-bottom: 1px solid #538c27; -webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee; box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee; }

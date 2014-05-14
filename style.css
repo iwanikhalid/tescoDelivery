@@ -15,26 +15,27 @@ html {
   background-position: 50% 0;
   background-size: 100% auto; 
 }
-html.parallax { background-color: #17c1f4; background-image: none; }
+html.parallax { background-color: #738ea3; background-image: none; }
 
 body { font-family: 'Montserrat', sans-serif; font-size: 14px; color: #444; text-align: center; }
-	.parallax body { font-size: 1.1em; -webkit-font-smoothing: antialiased; }
-	.parallax p { line-height: 1.6em; }
+	.parallax  .scene { font-size: 120%; -webkit-font-smoothing: antialiased; }
+	.parallax .scene p { line-height: 1.6em; }
 
 .wrap { position: relative; padding: 0; width: 1111px; margin: 0 auto; text-align: left; }
 #header {  }
 	h1#logo a { display: block; width: 340px; height: 129px; background: url(img/logo.png) no-repeat; }
 	h1#logo span { display: none; }
-	#nav { font-family: 'Open Sans'; width: 771px; float: right; padding: 50px 0 0; }
-	#nav li { width: 13%; float: left; text-align: center; padding: 0 0 20px; margin: 0 22px; }
+	#nav { font-family: 'Open Sans'; width: 700px; float: right; padding: 50px 0 0; }
+	#nav li { width: 18%; float: left; text-align: center; padding: 0 0 20px; margin: 0 20px; }
 	#nav li a  { color: #fff; text-transform: uppercase; font-weight: 500; font-size: 15px; }
-		#nav li:last-child  { width: auto; margin: 0; }
+		#nav li:last-child  { width: auto; margin-right: 0; }
 		#nav li:last-child a { font-size: 1.3em; font-weight: 700; display: block; width: 176px; height: 54px; background: url(img/shopmenu.png) no-repeat; color: #ee3b46; }
 		#nav li:last-child:hover { background: none; }
-		#nav li:first-child { padding: 0 0 10px; }
-	#nav li:first-child a, #nav li:last-child a { line-height: 50px; }
+		/*#nav li:first-child { padding: 0 0 10px; }*/
+	/*#nav li:first-child a,*/ #nav li:last-child a { line-height: 50px; }
+	#nav li:nth-child(3) { padding-top: 10px; }
 	#nav a:hover { text-decoration: none; }
-	#nav li:hover , #nav li.active { background: url(img/menuhover.png) no-repeat left bottom; } 
+	#nav li:hover , #nav li.active { background: url(img/menuhover.png) no-repeat center bottom; } 
 #content { }
 	.sidebar { float: left; width: 365px;  }
 	.sidebar.deliveryman { height: 668px;  background: url(img/deliveryman.png) no-repeat; }

@@ -18,8 +18,8 @@ html {
 html.parallax { background-color: #17c1f4; background-image: none; }
 
 body { font-family: 'Montserrat', sans-serif; font-size: 14px; color: #444; text-align: center; }
-	.parallax body { font-size: 13px; }
-	.parallax p { line-height: 1.4em; }
+	.parallax body { font-size: 1.1em; -webkit-font-smoothing: antialiased; }
+	.parallax p { line-height: 1.6em; }
 
 .wrap { position: relative; padding: 0; width: 1111px; margin: 0 auto; text-align: left; }
 #header {  }

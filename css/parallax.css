@@ -23,7 +23,7 @@
 	background-position: top center;
 	background-repeat: repeat-x;
 	color: #FFF;
-	font-size: 160%;
+	/*font-size: 160%;*/
 	text-align: left;
 	min-width: 900px;
 }
@@ -60,6 +60,7 @@
   background: url(../img/bg-blue-box.png);
   color: #FFF;
   padding: 15px 25px 20px 25px;
+  text-align: center;
 }
 
 .explanationOrange {
@@ -103,7 +104,6 @@
 }
 
 .explanation6 {
-	color: #707E83;
 	position: absolute;
 	top: 80px;
 	width: 450px;
@@ -1399,4 +1399,4 @@
 }
 
 /* Iwani edits box styles */
-.scene4 .explanationOrange, .scene6 .explanationBlue { color: #333; background: #fff; border: 10px double #d05571; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; }
+/*.scene4 .explanationOrange, .scene6 .explanationBlue { color: #333; background: #fff; border: 10px double #d05571; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; }*/

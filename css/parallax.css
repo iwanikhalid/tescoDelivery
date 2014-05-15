@@ -45,9 +45,10 @@
 }
 
 .scene3 {
-  background-color: #18c1f3;
+  /*background-color: #18c1f3;*/
   padding: 20px 0;
   margin: 0 0 -10px; 
+  margin: 0 auto;
   /*margin: 0 0 -110px;*/
 }
 
@@ -56,7 +57,7 @@
 }
 
 .scene5 {
-  background-repeat: repeat;
+  /*background-repeat: repeat;*/
 }
 
 .explanationBlue {

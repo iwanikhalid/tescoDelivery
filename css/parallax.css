@@ -21,7 +21,7 @@
 
 .scene {
 	background-position: top center;
-	background-repeat: repeat-x;
+	/*background-repeat: repeat-x;*/
 	color: #FFF;
 	/*font-size: 160%;*/
 	text-align: left;

@@ -54,6 +54,9 @@ body { font-family: 'Montserrat', sans-serif; font-size: 14px; color: #444; text
 		.articles .videoInfo:last-child span { display: none; }
 	.videoSingle  { margin: 0 0 50px; position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
 	.videoSingle  iframe, .videoSingle  object, .videoSingle  embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }	
+.cta { text-align: center; color: #fff; font-weight: bold; margin: 20px 0 0 0; }
+	.cta a, .cta a:hover{ text-decoration: none; }
+	.cta a { font-size: 120% !important;  }
 #footer  { padding: 25px 0 0 25px; }
 	#footer h2 { margin: 0 10px 0 0; display: inline-block; font-weight: normal; font-size: 1.3em; color: #fff; text-transform: uppercase; }
 	#footer .floatr a { vertical-align: middle; margin: 0 5px; display: inline-block;  width: 47px; height: 47px; background: url(img/social.png) no-repeat; }
@@ -114,3 +117,40 @@ p.cupid-green.reset a { font: bold 1.1em/1 "Lucida Grande", "Lucida Sans Unicode
 p.cupid-green a { text-decoration: none; background-color: #7fbf4d; background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f)); background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f); background-image: -moz-linear-gradient(top, #7fbf4d, #63a62f); background-image: -ms-linear-gradient(top, #7fbf4d, #63a62f); background-image: -o-linear-gradient(top, #7fbf4d, #63a62f); background-image: linear-gradient(top, #7fbf4d, #63a62f); border: 1px solid #63a62f; border-bottom: 1px solid #5b992b; border-radius: 5px; -webkit-box-shadow: inset 0 1px 0 0 #96ca6d; box-shadow: inset 0 1px 0 0 #96ca6d; color: #fff; font: bold 0.6em/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; padding: 7px 10px 8px 10px;  text-align: center; text-shadow: 0 -1px 0 #4c9021; }
 p.cupid-green a:hover { background-color: #76b347; background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e)); background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e); background-image: -moz-linear-gradient(top, #76b347, #5e9e2e); background-image: -ms-linear-gradient(top, #76b347, #5e9e2e); background-image: -o-linear-gradient(top, #76b347, #5e9e2e); background-image: linear-gradient(top, #76b347, #5e9e2e); -webkit-box-shadow: inset 0 1px 0 0 #8dbf67; box-shadow: inset 0 1px 0 0 #8dbf67; cursor: pointer; }
 p.cupid-green a:active { border: 1px solid #5b992b; border-bottom: 1px solid #538c27; -webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee; box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee; }
+
+/* Buttons hehe */
+.awesome, .awesome:visited {
+	background: #222 url(alert-overlay.png) repeat-x; 
+	display: inline-block; 
+	padding: 5px 10px 6px; 
+	color: #fff; 
+	text-decoration: none;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	position: relative;
+	cursor: pointer;
+}
+
+	.awesome:hover							{ background-color: #111; color: #fff; }
+	.awesome:active							{ top: 1px; }
+	.small.awesome, .small.awesome:visited 			{ font-size: 11px; padding: ; }
+	.awesome, .awesome:visited,
+	.medium.awesome, .medium.awesome:visited 		{ font-size: 13px; font-weight: bold; line-height: 1; text-shadow: 0 -1px 1px rgba(0,0,0,0.25); }
+	.large.awesome, .large.awesome:visited 			{ font-size: 14px; padding: 8px 14px 9px; }
+	
+	.green.awesome, .green.awesome:visited		{ background-color: #91bd09; }
+	.green.awesome:hover						{ background-color: #749a02; }
+	.blue.awesome, .blue.awesome:visited		{ background-color: #2daebf; }
+	.blue.awesome:hover							{ background-color: #007d9a; }
+	.red.awesome, .red.awesome:visited			{ background-color: #e33100; }
+	.red.awesome:hover							{ background-color: #872300; }
+	.magenta.awesome, .magenta.awesome:visited		{ background-color: #a9014b; }
+	.magenta.awesome:hover							{ background-color: #630030; }
+	.orange.awesome, .orange.awesome:visited		{ background-color: #ff5c00; }
+	.orange.awesome:hover							{ background-color: #d45500; }
+	.yellow.awesome, .yellow.awesome:visited		{ background-color: #ffb515; }
+	.yellow.awesome:hover							{ background-color: #fc9200; }

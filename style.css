@@ -6,7 +6,9 @@ ul, li { list-style: none; }
 img { border: none; }
 
 /******** STRUCTURE & SPECIFICS *****************/
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,200,100,500,600,700,800,900);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900italic,900);
+
 html { 
   background: #1070b0 url(img/bg-.jpg) center top; 
   background-repeat: repeat;
@@ -17,9 +19,10 @@ html {
 }
 html.parallax { background-color: #738ea3; background-image: none; }
 
-body { font-family: 'Montserrat', sans-serif; font-size: 14px; color: #444; text-align: center; }
+body { font-family: 'Merriweather', sans-serif; font-size: 14px; color: #444; text-align: center; }
 	.parallax  .scene { font-size: 120%; -webkit-font-smoothing: antialiased; }
 	.parallax .scene p { line-height: 1.6em; }
+	.parallax .scene  strong { font-weight: 900; font-family: 'Raleway', sans-serif; }
 
 .wrap { position: relative; padding: 0; width: 1111px; margin: 0 auto; text-align: left; }
 #header {  }
@@ -94,7 +97,7 @@ img.floatr { margin: 0 0 0 10px; }
 .marg { margin: 0 0 10px 0; }
 .reset, p.reset { margin: 0; }
 
-h1,h2,h3,h4,h5,h6 { font-weight: bold; text-rendering: optimizeLegibility; } /* www.aestheticallyloyal.com/public/optimize-legibility/ */ 
+h1,h2,h3,h4,h5,h6 { font-family: 'Raleway', sans-serif; font-weight: bold; text-rendering: optimizeLegibility; } /* www.aestheticallyloyal.com/public/optimize-legibility/ */ 
 html { -webkit-font-smoothing: antialiased; } /* maxvoltar.com/archive/-webkit-font-smoothing */
 
 h1 { font-size: 2.2em; letter-spacing: -2px; }

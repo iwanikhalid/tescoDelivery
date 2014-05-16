@@ -63,17 +63,24 @@
 .explanationBlue {
   background: url(../img/bg-blue-box.png);
   color: #FFF;
-  padding: 15px 25px 20px 25px;
+  padding: 20px 50px;
   text-align: center;
+  -webkit-box-shadow: 0 8px 6px -4px #415b74;
+  -moz-box-shadow: 0 8px 6px -4px #415b74;
+  box-shadow: 0 8px 6px -4px #415b74;
 }
 
+.explanationBlue strong { text-shadow: 0 2px 4px #0e4276; display: inline-block; font-size: 150%; text-transform: uppercase; margin: 0 0 10px; }
+
 .explanationOrange {
-	background: url(../img/bg-orange-box.png);
-	padding: 15px 25px 20px 25px;
-	text-align: center;
-	width: 20%;
-	right: 0 !important;
+	background: url(../img/bg-arrow.png) no-repeat left center; 
+	width: 26%;
+	padding:  0 0 0 40px;
+	right: -54px !important;
 }
+
+.explanationOrange span { padding: 15px; display: block; border: 5px solid #fff; background: #f96a1d; }
+.explanationOrange strong { background: url(../img/bg-double-border.png) repeat-x bottom left; width: 90%; text-shadow: 0 2px 4px #bb531c; display: inline-block; font-size: 120%; text-transform: uppercase; padding: 0 0 15px; margin: 0 0 10px; }
 
 .explanation1 {
 	position: absolute;
@@ -88,15 +95,23 @@
 .explanation3 {
 	position: absolute;
 	top: 670px;
+	left: 0;
+	background: url(../img/bg-arrow.png) no-repeat right center;  /* for arrow */
+	padding:  0 40px 0 0;
 	/*margin-left: -60px; width: 300px;*/
 }
 
 .explanation4 {
 	position: absolute;
 	top: 450px;
-	/*width: 350px;
-	left: -50px;*/
+	/*width: 350px;*/
+	left: 0; 
+	background: url(../img/bg-arrow.png) no-repeat right center;  /* for arrow */
+	padding:  0 40px 0 0;
 }
+
+.explanation4 span { background-color: #43403e; }
+.explanation4 strong { text-shadow: 0 2px 4px #666; }
 
 .explanation5 {
 	position: absolute;
@@ -105,11 +120,18 @@
 	z-index: 4;
 }
 
+.explanation5 span { background-color: #43403e;  }
+.explanation5 strong { text-shadow: 0 2px 4px #666; }
+
 .explanation6 {
 	position: absolute;
-	top: 80px;
-	width: 450px;
+	top: 90px;
+	width: 32%;
+	background-image: none;
+	background-color: #f67630;
 }
+
+.explanation6 strong { text-shadow: 0 2px 4px #bb531c }
 
 .explanation7 {
 	position: absolute;
@@ -117,6 +139,9 @@
 	/*width: 800px; left: 50%; margin-left: -440px;*/
 	z-index: 4;
 }
+
+.explanation7 span { background-color: #43403e;  }
+.explanation7 strong { text-shadow: 0 2px 4px #666; }
 
 .scene4Hand1 {
 	left: 470px;
@@ -191,6 +216,10 @@
 	position: relative;
 	z-index: 3;
 }
+
+.scene5 .explanationBlue { padding: 13px 10px; text-align: left; }
+.scene5 strong { padding: 8px 0 0; width: 28%; text-align: right; }
+.scene5 span { width: 70%; }
 
 .scene6 {
 	position: relative;

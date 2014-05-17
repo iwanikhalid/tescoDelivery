@@ -113,17 +113,17 @@
 .explanation4 span { background-color: #43403e; }
 .explanation4 strong { text-shadow: 0 2px 4px #666; }
 
-.explanation5 {
+.explanation6 {
 	position: absolute;
 	top: 3500px;
 	/*width: 800px; margin-left: -440px; left: 50%; */
 	z-index: 4;
 }
 
-.explanation5 span { background-color: #43403e;  }
-.explanation5 strong { text-shadow: 0 2px 4px #666; }
+.explanation6 span { background-color: #43403e;  }
+.explanation6 strong { text-shadow: 0 2px 4px #666; }
 
-.explanation6 {
+.explanation7 {
 	position: absolute;
 	top: 90px;
 	width: 32%;
@@ -131,17 +131,17 @@
 	background-color: #f67630;
 }
 
-.explanation6 strong { text-shadow: 0 2px 4px #bb531c }
+.explanation7 strong { text-shadow: 0 2px 4px #bb531c }
 
-.explanation7 {
+.explanation5 {
 	position: absolute;
 	top: 2000px;
 	/*width: 800px; left: 50%; margin-left: -440px;*/
 	z-index: 4;
 }
 
-.explanation7 span { background-color: #43403e;  }
-.explanation7 strong { text-shadow: 0 2px 4px #666; }
+.explanation5 span { background-color: #43403e;  }
+.explanation5 strong { text-shadow: 0 2px 4px #666; }
 
 .scene4Hand1 {
 	left: 470px;

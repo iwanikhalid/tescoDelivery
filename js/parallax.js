@@ -1,3 +1,4 @@
+/* Preventing Scroll function */
 // left: 37, up: 38, right: 39, down: 40,
 // spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
 var keys = [37, 38, 39, 40];
@@ -114,9 +115,6 @@ jQuery(document).ready(function($) {
 			$('.scene6Truck').css('position', 'absolute').css('top', 4000);
 		}
 
-
-
-
 		// Show explanation #4
 		if (!$('.explanation4').is(':visible') && $(window).scrollTop()>$('.scene6').position().top+250) {
 			$('.explanation4').fadeIn(600);
@@ -129,8 +127,6 @@ jQuery(document).ready(function($) {
 			$('.explanation4').hide();
 		}
 
-
-
 		// Show explanation #5
 		if (!$('.explanation5').is(':visible') && $(window).scrollTop()>$('.scene6').position().top+parseInt($('.explanation5').css('top'))-600) {
 			$('.explanation5').fadeIn(600);
@@ -142,17 +138,17 @@ jQuery(document).ready(function($) {
 			$(window).scrollTop()>$('.scene7').position().top)) {
 			$('.explanation5').hide();
 		}
-
-		// Show explanation #7
-		if (!$('.explanation7').is(':visible') && $(window).scrollTop()>$('.scene6').position().top+parseInt($('.explanation7').css('top'))-600) {
-			$('.explanation7').fadeIn(600);
+		
+		// Show explanation #6
+		if (!$('.explanation6').is(':visible') && $(window).scrollTop()>$('.scene6').position().top+parseInt($('.explanation6').css('top'))-600) {
+			$('.explanation6').fadeIn(600);
 		}
 
-		// Hide explanation #5
-		if ($('.explanation7').is(':visible') && 
-			($(window).scrollTop()<$('.scene6').position().top+parseInt($('.explanation7').css('top'))-900 ||
+		// Hide explanation #6
+		if ($('.explanation6').is(':visible') && 
+			($(window).scrollTop()<$('.scene6').position().top+parseInt($('.explanation6').css('top'))-900 ||
 			$(window).scrollTop()>$('.scene7').position().top)) {
-			$('.explanation7').hide();
+			$('.explanation6').hide();
 		}
 
 		// Show Delivery Guy

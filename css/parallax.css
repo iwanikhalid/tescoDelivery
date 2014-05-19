@@ -94,33 +94,50 @@
 
 .explanation3 {
 	position: absolute;
-	top: 670px;
-	left: 0;
+	top: 870px;
+	left: 30px;
 	background: url(../img/bg-arrow.png) no-repeat right center;  /* for arrow */
 	padding:  0 40px 0 0;
+	z-index: 4;
 	/*margin-left: -60px; width: 300px;*/
 }
 
 .explanation4 {
 	position: absolute;
-	top: 450px;
-	/*width: 350px;*/
-	left: 0; 
+	top: 700px;
+	width: 35%;
+	left: 130px; 
 	background: url(../img/bg-arrow.png) no-repeat right center;  /* for arrow */
 	padding:  0 40px 0 0;
-}
-
-.explanation4 span { background-color: #43403e; }
-.explanation4 strong { text-shadow: 0 2px 4px #666; }
-
-.explanation6 {
-	position: absolute;
-	top: 3500px;
-	/*width: 800px; margin-left: -440px; left: 50%; */
 	z-index: 4;
 }
 
-.explanation6 span { background-color: #43403e;  }
+.explanation4 span { padding: 30px; background-color: #43403e; }
+.explanation4 strong { text-shadow: 0 2px 4px #666; }
+
+.explanation5 {
+	position: absolute;
+	top: 2000px;
+	right: 10px !important;
+	/*width: 800px; left: 50%; margin-left: -440px;*/
+	z-index: 4;
+}
+
+.explanation5 span { background-color: #43403e;  }
+.explanation5 strong { text-shadow: 0 2px 4px #666; }
+
+
+.explanation6 {
+	position: absolute;
+	top: 3550px;
+	/*width: 800px; margin-left: -440px; left: 50%; */
+	z-index: 4;
+	background: url(../img/bg-arrow.png) no-repeat top right; 
+	padding: 30px 0 0;
+	width: 35%;
+}
+
+.explanation6 span { padding: 20px; background-color: #43403e;  }
 .explanation6 strong { text-shadow: 0 2px 4px #666; }
 
 .explanation7 {
@@ -132,16 +149,6 @@
 }
 
 .explanation7 strong { text-shadow: 0 2px 4px #bb531c }
-
-.explanation5 {
-	position: absolute;
-	top: 2000px;
-	/*width: 800px; left: 50%; margin-left: -440px;*/
-	z-index: 4;
-}
-
-.explanation5 span { background-color: #43403e;  }
-.explanation5 strong { text-shadow: 0 2px 4px #666; }
 
 .scene4 {
   position: relative;

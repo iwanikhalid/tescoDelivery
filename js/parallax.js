@@ -81,14 +81,14 @@ jQuery(document).ready(function($) {
 		}
 
 		// Move goods
-		minMovement=$('.scene5').position().top;
-		maxMovement=$('.scene5').position().top+280;
+		minMovement=$('.sceneWrapper5').position().top;
+		maxMovement=$('.sceneWrapper5').position().top+280;
 
 		if ($(window).scrollTop()>minMovement && $(window).scrollTop()<maxMovement) {
 			if ($(window).scrollTop()<maxMovement && !$('.scene6Goods').is(':visible')) {
 				$('.scene6Goods').show();
 			}
-			$('.scene6Goods').css('top', $(window).scrollTop()-$('.scene5').position().top+140);
+			$('.scene6Goods').css('top', $(window).scrollTop()-$('.sceneWrapper5').position().top+140);
 		}
 
 		// Move lorry

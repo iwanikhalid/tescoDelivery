@@ -28,15 +28,15 @@ body { font-family: 'Merriweather', sans-serif; font-size: 14px; color: #444; te
 #header {  }
 	h1#logo a { display: block; width: 340px; height: 129px; background: url(img/logo.png) no-repeat; }
 	h1#logo span { display: none; }
-	#nav { font-family: 'Open Sans'; width: 700px; float: right; padding: 50px 0 0; }
-	#nav li { width: 18%; float: left; text-align: center; padding: 0 0 20px; margin: 0 20px; }
-	#nav li a  { color: #fff; text-transform: uppercase; font-weight: 500; font-size: 15px; }
-		#nav li:last-child  { width: auto; margin-right: 0; }
-		#nav li:last-child a { font-size: 1.3em; font-weight: 700; display: block; width: 176px; height: 54px; background: url(img/shopmenu.png) no-repeat; color: #ee3b46; }
-		#nav li:last-child:hover { background: none; }
-		/*#nav li:first-child { padding: 0 0 10px; }*/
-	/*#nav li:first-child a,*/ #nav li:last-child a { line-height: 50px; }
-	#nav li:nth-child(3) { padding-top: 10px; }
+	#nav { font-family: 'Open Sans'; width: 770px; float: right; padding: 50px 0 0; }
+	#nav li { width: 14%; float: left; text-align: center; padding: 8px 0 20px; margin: 0 11px; }
+	#nav li a  { color: #fff; text-transform: uppercase; font-weight: 500; font-size: 1em; }
+		#nav li.shop { width: auto; margin-right: 0; padding: 0 0 20px; }
+		#nav li.shop  a { padding: 8px 0 0 0; font-size: 0.9em; font-weight: 700; display: block; width: 176px; height: 46px; background: url(img/shopmenu.png) no-repeat; color: #ee3b46; }
+		#nav li.shop:hover { background: none; }
+		#nav li.shop  a { line-height: normal; }
+		#nav li.last a { color: #91bd09; }
+	#nav li:nth-child(3) { padding: 12px 0 20px; }
 	#nav a:hover { text-decoration: none; }
 	#nav li:hover , #nav li.active { background: url(img/menuhover.png) no-repeat center bottom; } 
 #content { }
@@ -57,9 +57,6 @@ body { font-family: 'Merriweather', sans-serif; font-size: 14px; color: #444; te
 		.articles .videoInfo:last-child span { display: none; }
 	.videoSingle  { margin: 0 0 50px; position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
 	.videoSingle  iframe, .videoSingle  object, .videoSingle  embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }	
-.cta { text-align: center; color: #fff; font-weight: bold; margin: 20px 0 0 0; }
-	.cta a, .cta a:hover{ text-decoration: none; }
-	.cta a { text-transform: capitalize; font-size: 1.2em !important; }
 #footer  { padding: 25px 0 0 25px; }
 	#footer h2 { margin: 0 10px 0 0; display: inline-block; font-weight: normal; font-size: 1.3em; color: #fff; text-transform: uppercase; }
 	#footer .floatr a { vertical-align: middle; margin: 0 5px; display: inline-block;  width: 47px; height: 47px; background: url(img/social.png) no-repeat; }

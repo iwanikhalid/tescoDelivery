@@ -68,6 +68,9 @@ body { font-family: 'Merriweather', sans-serif; font-size: 14px; color: #444; te
 .footer { margin: 10px 0; color: #fff; font-size: 10px; font-family: Verdana; font-weight: bold; }
 .footer a { color: #fff; }
 
+#notice { display: none; background: #000; color: #fff; padding: 50px 0; }
+#notice a { color: #fff; text-decoration: underline; }
+
 /******** REPEATS ********************************/
 h1,h2,h3,h4,p,ul,ol,table { margin-bottom: 10px; }
 

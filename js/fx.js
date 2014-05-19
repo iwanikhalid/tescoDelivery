@@ -11,6 +11,12 @@ jQuery(document).ready(function($) {
 		$('#backtotop').click(function() {
 			$('body,html').animate({scrollTop:0},800);
 		});	
+		
+		$("#notice").show();
+			$("#notice a").click(function(){
+		  $("#notice").hide();
+		});	
+		
 	});
 
 });

@@ -35,7 +35,7 @@ body { font-family: 'Merriweather', sans-serif; font-size: 14px; color: #444; te
 		#nav li.shop  a { padding: 8px 0 0 0; font-size: 0.9em; font-weight: 700; display: block; width: 176px; height: 46px; background: url(img/shopmenu.png) no-repeat; color: #ee3b46; }
 		#nav li.shop:hover { background: none; }
 		#nav li.shop  a { line-height: normal; }
-		#nav li.last a { color: #91bd09; }
+		#nav li.last a { color: #0066b0; }
 	#nav li:nth-child(3) { padding: 12px 0 20px; }
 	#nav a:hover { text-decoration: none; }
 	#nav li:hover , #nav li.active { background: url(img/menuhover.png) no-repeat center bottom; } 

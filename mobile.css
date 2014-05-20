@@ -1,0 +1,9 @@
+/* Media Queries */
+@media only screen 
+and (min-device-width : 10em) 
+and (max-device-width : 50em) {
+	.wrap , #nav, html , body { width: 100%; }
+	html, body { font-size: 100%; margin: 0; overflow-x: hidden; }
+	.floatl, .floatr, #nav  { float: none; }
+
+}

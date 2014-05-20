@@ -2,8 +2,43 @@
 @media only screen 
 and (min-device-width : 10em) 
 and (max-device-width : 50em) {
-	.wrap , #nav, html , body { width: 100%; }
+	.wrap , #nav, html , body, .sidebar, .main { width: 100%; }
 	html, body { font-size: 100%; margin: 0; overflow-x: hidden; }
-	.floatl, .floatr, #nav  { float: none; }
+	html {
+		background: none;
+		background-repeat: repeat;
+		height: auto;
+		width: 100%;
+		background-position: 0% 0%;
+		background-size: auto; 
+	}
+	body { background: #6f8a9b url(img/bg-.jpg) center top;  }
+	
+	#nav { padding: 0; }
+	#nav li { padding: 0; background: #61798b; width: 100%; float: none; text-align: left;  margin: 0; }
+	#nav li a  { color: #fff; text-transform: none; text-align: left;  padding: 2%; background: #61798b; width: 100%; font-size: 1.2em; font-weight: 500; display: inline-block; height: auto; color: #fff;  }
+		#nav li.shop { width: 100%; margin-right: 0; padding: 0; }
+		#nav li.shop  a { padding: 2%; background: #61798b; width: 100%; font-size: 1.2em; font-weight: 500; display: inline-block; height: auto; color: #fff; }
+		#nav li.shop  a { line-height: normal; }
+		#nav li.early a { padding: 2%; width: 100%; }
+		#nav li.last a { color: #fff; }
+	#nav li:nth-child(3) { padding: 0; }
+	#nav a:hover { text-decoration: none; background: #42525f; }
+	#nav li:hover  { background: #42525f; } 
+	#nav li.active a { background: #1d5f9c; } 
+	
+	.sidebar.deliveryman { width: 300px; height: 458px; background: url(img/m-deliveryman.png) no-repeat; }
+	.videoframe { padding: 0; margin: 0 auto 0 2%; width: auto; height: auto; background: none; }
+	.videoframe iframe { width: 280px !important; height: 200px !important; }
+
+	.articleInfo h2 { display: inline-block; margin: 8px 0 8px 0; }
+	h1 { font-size: 2; letter-spacing: -2px; }
+	h2 { font-size: 1.1em; letter-spacing: -1px; }
+	h3 { font-size: 1em; text-transform: uppercase; letter-spacing: -0.5px; }
+	h4 { font-size: 0.9em; }
+	h5 { font-size: 0.7em; }
+	h6 { font-size: 0.5em; }
+	
+	.floatl, .floatr, #nav, .sidebar, .main  { float: none; }
 
 }

@@ -24,6 +24,13 @@
 </head>
 
 <body>
+<script>
+    function fbShare(url, title, descr, image, winWidth, winHeight) {
+        var winTop = (screen.height / 2) - (winHeight / 2);
+        var winLeft = (screen.width / 2) - (winWidth / 2);
+        window.open('http://www.facebook.com/sharer.php?s=100&p[title]=' + title + '&p[summary]=' + descr + '&p[url]=' + url + '&p[images][0]=' + image, 'sharer', 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width=' + winWidth + ',height=' + winHeight);
+    }
+</script>
 <div class="wrap">
 	<div class="clearfix">
 		<h1 class="floatl" id="logo"><a href="index.html"><span>Tesco Delivery Lab</span></a></h1>
@@ -43,8 +50,8 @@
 					<iframe width="692" height="454" src="http://www.youtube.com/embed/qmv6y5EUbIE?rel=0" frameborder="0" allowfullscreen></iframe>
 				</div>
 
-				<div class="clearfix" id="footer">
-					<div class="floatr"><h2>Share This: </h2><a href="https://www.facebook.com/sharer/sharer.php?u=http://tesco.com.my/deliverylab/index.html" class="fb"></a><a class="twitter" href="https://twitter.com/home?status=http://tesco.com.my/deliverylab%20--%20Check%20out%20the%20latest%20experiments%20going%20on%20in%20Tesco%E2%80%99s%20Delivery%20Lab!"></a></div>
+				<div class="clearfix" id="footer"> 
+					<div class="floatr"><h2>Share This: </h2><a class="fb" href="javascript:fbShare('http://tesco.com.my/deliverylab', 'Tesco Delivery Lab', 'Checkout the latest experiments in Tesco Delivery Lab', 'http://tesco.com.my/deliverylab/img/m-deliveryman.png', 520, 350)"></a><a class="popup twitter" href="https://twitter.com/home?status=http://tesco.com.my/deliverylab%20--%20Check%20out%20the%20latest%20experiments%20going%20on%20in%20Tesco%E2%80%99s%20Delivery%20Lab!"></a></div>
 				</div>
 			</div>
 		</div>

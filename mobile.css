@@ -1,37 +1,37 @@
 /* Media Queries */
 @media only screen 
-and (min-device-width : 10em) 
-and (max-device-width : 50em) {
-	.wrap , #nav, html , body, .sidebar, .main { width: 100%; }
+and (min-device-width : 320px) 
+and (max-device-width : 1111px) {
+	.wrap , html , body, .sidebar, .main { width: 100%; }
 	html, body { font-size: 100%; margin: 0; overflow-x: hidden; }
-	html {
-		background: none;
-		background-repeat: repeat;
-		height: auto;
-		width: 100%;
-		background-position: 0% 0%;
-		background-size: auto; 
-	}
-	body { background: #6f8a9b url(img/bg-.jpg) center top;  }
+	html { background: none; background-repeat: repeat; height: auto; width: 100%; background-position: 0% 0%; background-size: auto;  }
+	body { background: #6f8a9b url(img/bg-.jpg) center top; }
+	h1#logo { margin: 0; }
+	h1#logo a  { margin: -20px auto 0 auto; width: 303px;  background: url(img/m-logo.png) no-repeat; }
+	#content { padding: 0 1%; }
 	
-	#nav { padding: 0; }
-	#nav li { padding: 0; background: #61798b; width: 100%; float: none; text-align: left;  margin: 0; }
-	#nav li a  { color: #fff; text-transform: none; text-align: left;  padding: 2%; background: #61798b; width: 100%; font-size: 1.2em; font-weight: 500; display: inline-block; height: auto; color: #fff;  }
-		#nav li.shop { width: 100%; margin-right: 0; padding: 0; }
-		#nav li.shop  a { padding: 2%; background: #61798b; width: 100%; font-size: 1.2em; font-weight: 500; display: inline-block; height: auto; color: #fff; }
+	#nav { width: auto; padding: 142px 0 0; background: url(img/m-deliveryman.png) no-repeat center top; }
+	#nav li { background: none; width: auto; float: none; text-align: left;  margin: 0 0 1px; padding: 0; }
+	#nav li a  { color: #fef200; text-transform: none; text-align: left; font-size: 1.2em; font-weight: 700; display: inline-block; height: auto;  /* edit dari sini */ font-family: 'Raleway', sans-serif; width: 85%;  padding: 2.2% 0 2.2% 15%; background: #4a6579; /* Old browsers */ background: -moz-linear-gradient(top,  #4a6579 0%, #404c53 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4a6579), color-stop(100%,#404c53)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top,  #4a6579 0%,#404c53 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top,  #4a6579 0%,#404c53 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top,  #4a6579 0%,#404c53 100%); /* IE10+ */ background: linear-gradient(to bottom,  #4a6579 0%,#404c53 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a6579', endColorstr='#404c53',GradientType=0 ); /* IE6-9 */  }
+	
+		#nav li.shop { width: 100%; margin: 0; padding: 0;  }	
+		#nav li.shop  a { background: #fff; color: #f14c4d;  font-size: 1em; font-weight: 600; display: inline-block; height: auto;   /* edit dari sini */ margin: 2% 0 2% 8%; width: 80%; padding: 3%; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; }
 		#nav li.shop  a { line-height: normal; }
-		#nav li.early a { padding: 2%; width: 100%; }
-		#nav li.last a { color: #fff; }
+		#nav li.early a { margin-top: 5%; border: 1px solid #f14c4d; }
+		#nav li.last a { color: #1e5f9c; margin: 1% 0 0 8%; border: 1px solid #1e5f9c; }
+		
 	#nav li:nth-child(3) { padding: 0; }
-	#nav a:hover { text-decoration: none; background: #42525f; }
-	#nav li:hover  { background: #42525f; } 
-	#nav li.active a { background: #1d5f9c; } 
+	#nav a:hover { text-decoration: none; background: #496376; }
+	#nav li:hover  { background: none; /* edit? */ } 
+	#nav li.active a { background: #4f8d40;  /* edit? */  } 
 	
 	.sidebar.deliveryman { 
-		width: 300px; height: 458px; background: url(img/m-deliveryman.png) no-repeat; 
+		/*width: 300px; height: 458px; background: url(img/m-deliveryman.png) no-repeat; 
 		background-size:contain;
 		background-position:center;
 		margin: 0 auto;
+		*/
+		display: none;
 		}
 	
 	.videoframe { margin: 0; width: auto; background: none; position: relative;  padding-bottom: 56.25%;   padding-top: 30px; height: 0; overflow: hidden; } 
@@ -55,7 +55,7 @@ and (max-device-width : 50em) {
 	h4 { font-size: 0.9em; }
 	h5 { font-size: 0.7em; }
 	h6 { font-size: 0.5em; }
-	h1.page-title { margin: 0 0 0 10px; }
+	h1.page-title { margin: 0 0 0 10px; font-weight: 700; }
 	
 	.floatl, .floatr, #nav, .sidebar, .main  { float: none; }
 

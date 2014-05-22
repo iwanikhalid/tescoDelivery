@@ -56,7 +56,7 @@ body { font-family: 'Merriweather', sans-serif; font-size: 14px; color: #444; te
 			.entry h2 { line-height: 1.2em; }
 		.videoInfo .meta { font-size: 0.8em; padding: 0 0 0 30px; }
 		.articles .videoInfo:last-child span { display: none; }
-	.videoSingle  { margin: 0 0 50px; position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+	.videoSingle  { margin: 0 0 10px; position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
 	.videoSingle  iframe, .videoSingle  object, .videoSingle  embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }	
 #footer  { padding: 25px 0 0 25px; }
 	#footer h2 { margin: 0 10px 0 0; display: inline-block; font-weight: normal; font-size: 1.3em; color: #fff; text-transform: uppercase; }

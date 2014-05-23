@@ -19,6 +19,12 @@
 	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>	<link rel="shortcut icon" href="favicon.ico">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
 	<script src="js/fx.js" type="text/javascript"></script>
+    <script type="text/javascript">
+	function track_conversion {
+		lbReload('new-customer','','','');
+    function track_login {
+		lbReload('existing-customer','','','');
+    </script>
 </head>
 
 <body>
@@ -30,8 +36,8 @@
 			<li><a onClick="_gaq.push(['_trackEvent', 'The Science of Delivery', 'Click', 'More Experiments']);" href="the-science-of-delivery.html"><span>The Science of Delivery</span></a></li>
 			<li><a onClick="_gaq.push(['_trackEvent', 'More Experiments', 'Click', 'More Experiments']);" href="more-experiments.html"><span>More Experiments</span></a></li>
 			<li class="active"><a onClick="_gaq.push(['_trackEvent', 'More Science', 'Click', 'More Experiments']);" href="more-science.html"><span>More Science</span></a></li>
-			<li class="shop early"><a href="https://r.tesco.com.my/en-GB/"  onclick="trackOutboundLink('https://r.tesco.com.my/en-GB'); return false;"><span>New Customers? Sign Up Now</span></a></li>
-			<li class="shop last"><a href="http://eshop.tesco.com.my" onclick="trackOutboundLink('http://eshop.tesco.com.my'); return false;"><span>Existing Customers? Shop Now</span></a></li>
+			<li class="shop early"><a href="https://r.tesco.com.my/en-GB/"  onclick="trackOutboundLink('https://r.tesco.com.my/en-GB'); return false;track_conversion();"><span>New Customers? Sign Up Now</span></a></li>
+			<li class="shop last"><a href="http://eshop.tesco.com.my" onclick="trackOutboundLink('http://eshop.tesco.com.my'); return false;track_login();"><span>Existing Customers? Shop Now</span></a></li>
 		</ul> 
 	</div>
 	<div id="content" class="articles">
@@ -93,6 +99,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-PW84W6');</script>
 <!-- End Google Tag Manager -->
-
+  <!-- Lightning Bolt Starts -->
+	<script type="text/javascript">
+	                    var lbTrans = '[TRANSACTION ID]';
+	                    var lbValue = '[TRANSACTION VALUE]';
+	                    var lbData = '[Attribute/Value Pairs for Custom Data]';
+	                    var lb_rn = new String(Math.random()); var lb_rns = lb_rn.substring(2, 12);
+	                    var boltProtocol = ('https:' == document.location.protocol) ? 'https://' : 'http://';
+	                    try {
+	                        var newScript = document.createElement('script');
+	                        var scriptElement = document.getElementsByTagName('script')[0];
+	                        newScript.type = 'text/javascript';
+	                        newScript.id = 'lightning_bolt_' + lb_rns;
+	                        newScript.src = boltProtocol + 'b3.mookie1.com/2/LB/' + lb_rns + '@x96?';
+	                        scriptElement.parentNode.insertBefore(newScript, scriptElement);
+	                        scriptElement = null; newScript = null;
+	                    } catch (e) { }
+	                                </script>
+	                <!-- Lightning Bolt Ends -->
 </body>
 </html>

@@ -103,15 +103,38 @@
 	</div></div></div>
 
 	<div class="lightboxBg"><p>Loading...</p></div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<script type="text/javascript">
 
-  ga('create', 'UA-51172210-1', 'tesco.com.my');
-  ga('send', 'pageview');
+	_gaq.push(
+	  ['_setAccount', 'UA-51072569-1'],
+	  ['_trackPageview'],
+	  ['b._setAccount', 'UA-51172210-2'],
+	  ['b._trackPageview']
+	);
 
-</script>
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	<script type="text/javascript">
+	                    var lbTrans = '[TRANSACTION ID]';
+	                    var lbValue = '[TRANSACTION VALUE]';
+	                    var lbData = '[Attribute/Value Pairs for Custom Data]';
+	                    var lb_rn = new String(Math.random()); var lb_rns = lb_rn.substring(2, 12);
+	                    var boltProtocol = ('https:' == document.location.protocol) ? 'https://' : 'http://';
+	                    try {
+	                        var newScript = document.createElement('script');
+	                        var scriptElement = document.getElementsByTagName('script')[0];
+	                        newScript.type = 'text/javascript';
+	                        newScript.id = 'lightning_bolt_' + lb_rns;
+	                        newScript.src = boltProtocol + 'b3.mookie1.com/2/LB/' + lb_rns + '@x96?';
+	                        scriptElement.parentNode.insertBefore(newScript, scriptElement);
+	                        scriptElement = null; newScript = null;
+	                    } catch (e) { }
+	                                </script>
+	                <!-- Lightning Bolt Ends -->
 </body>
 </html>

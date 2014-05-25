@@ -65,6 +65,7 @@ html.parallax body { background-color: #738ea3; background-image: none; }
 .bottomNav a { color: #bab0a7; }
 .bottomNav a:hover, .bottomNav a.active { text-decoration: none; color: #f3ff39; border-bottom: 2px solid #f3ff39; }
 .bottomNav .floatr a { color: #CACC78; }
+img.postImg { margin: 0 0 10px;  outline: 0; max-width: 100%; height: auto;}
 
 /******** REPEATS ********************************/
 h1,h2,h3,h4,p,ul,ol,table { margin-bottom: 10px; }

@@ -39,4 +39,6 @@ and (max-device-width : 1111px) {
 	h1.page-title  { line-height: 1.2em; }
 	.box h2 { line-height: 1.2em; }
 	.box p { line-height: 1.4em; font-size: 0.9em; }
+	
+	#footer { display: none; }
 }

@@ -1,5 +1,10 @@
 /* Media Queries */
 @media only screen 
+and (max-device-width : 320px) {
+	#footer a.android { margin-top: 10px; }
+}
+
+@media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 1111px) {
 	.wrap , html , body, .sidebar, .main { width: 100%; }

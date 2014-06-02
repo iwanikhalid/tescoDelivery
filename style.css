@@ -25,7 +25,7 @@ html.parallax body { background-color: #738ea3; background-image: none; }
 		#nav li.cta:hover { background: none; }
 		#nav li.cta1 a { color: #ee3b46; padding-right: 20px; padding-left: 10px; width: 147px; }
 		#nav li.cta2 a { color: #0066b0; }
-	#nav li:nth-child(3) { padding: 12px 0 20px; }
+	#nav li:nth-child(3) { padding: 8px 0 20px; }
 	#nav a:hover { text-decoration: none; }
 	#nav li:hover , #nav li.active { background: url(img/menuhover.png) no-repeat center bottom; } 
 #content { }
